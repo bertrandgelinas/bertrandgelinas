@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------
+Contact Info
+--------------------------------------------------------------*/
+.uwl_contact_info_widget li {
+    line-height: 1.8 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.uwl_contact_info_widget .default li,
+.uwl_contact_info_widget li.text {
+    margin-bottom: 20px !important;
+}
+
+/*default style*/
+.uwl_contact_info_widget .default li:last-child {
+    margin-bottom: 0 !important;
+}
+
+.uwl_contact_info_widget .default i {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e2e2e2;
+    color: #01aef0;
+    margin-right: 15px;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.uwl_contact_info_widget .default .uwl-info-wrap,
+.uwl_contact_info_widget .default span.uwl-contact-title,
+.uwl_contact_info_widget .default span.uwl-contact-text {
+    display: block;
+}
+
+.uwl_contact_info_widget .default span.uwl-contact-title {
+    color: #777;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.uwl_contact_info_widget .default span.uwl-contact-text {
+    line-height: 18px;
+}
+
+/*big icons style*/
+.uwl_contact_info_widget .big-icons li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px !important;
+}
+
+.uwl_contact_info_widget .big-icons li:last-child {
+    margin-bottom: 0 !important;
+}
+
+.uwl_contact_info_widget .big-icons i {
+    float: left;
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #01aef0;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.uwl_contact_info_widget .big-icons li:hover i {
+    background-color: #01aef0;
+    color: #fff;
+    border-color: #01aef0;
+}
+
+.uwl_contact_info_widget .big-icons .uwl-info-wrap {
+    display: block;
+    margin-top: 11.5px;
+}
+
+.uwl_contact_info_widget .big-icons span.uwl-contact-title {
+    display: block;
+    font-size: 14px;
+}
+
+/*skype button*/
+.uwl_contact_info_widget .default li.skype {
+    display: inline-block !important;
+}
+
+.uwl_contact_info_widget li.skype a {
+    display: inline-block;
+    background-color: #00AFF0;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px 15px;
+}
+
+.uwl_contact_info_widget .big-icons li.skype a {
+    display: block;
+    text-align: center;
+}
+
+.uwl_contact_info_widget li.skype a:hover {
+    background-color: #333;
+    color: #fff !important;
+}
+
+.uwl_contact_info_widget li.skype a span {
+    padding-right: 3px;
+}

@@ -1,0 +1,17 @@
+.uwl_widget_wrap * { direction: rtl; unicode-bidi: embed; }
+
+/*right*/
+.about-me.style-default .about-me-header .about-me-avatar, .about-me.style-default .about-me-header .about-me-name, .uwl-flickr-widget .flickr_badge_image {float: right;}
+.about-me.style-simple .about-me-social li {margin-left: 0; margin-right: 6px;}
+.about-me.style-simple .about-me-social li:first-child {margin-right: 0;}
+.uwl_menu_widget .uwl-sub-menu {padding-left: 0;padding-right: 20px;}
+.uwl_menu_widget .uwl-sub-menu ul ul ul {padding-left: 0;padding-right: 0;}
+
+/*left*/
+.uwl_menu_widget li .uwl-sub-icon {text-align: left;}
+.about-me.style-default .about-me-header .about-me-avatar {margin-right: 0;margin-left: 15px;}
+.uwl_contact_info_widget .default i {margin-right: 0;margin-left: 15px;}
+.uwl_contact_info_widget .default li.skype a span,.uwl_contact_info_widget .big-icons li.skype a span {padding-right: 0;padding-left: 3px;}
+.uwl_contact_info_widget .big-icons i {margin-right: 0;margin-left: 20px;}
+.uwl_menu_widget .uwl-sub-menu li a:before {margin-right: 0;margin-left: 10px;}
+.uwl_menu_widget .uwl-sub-menu .uwl-sub-menu li a:before {margin-right: 0;margin-left: 10px;}

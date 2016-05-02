@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+Mailchimp
+--------------------------------------------------------------*/
+.uwl_newsletter_widget .uwl-form-wrap {
+    margin-bottom: 0;
+}
+
+.uwl_newsletter_widget .uwl-mail-text {
+    margin-bottom: 10px;
+}
+
+.uwl_newsletter_widget input[type="submit"] {
+      margin-top: 15px;
+}

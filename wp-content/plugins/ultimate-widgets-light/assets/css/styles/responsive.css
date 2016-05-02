@@ -1,0 +1,5 @@
+@media only screen and (max-width: 959px) {
+	.style-default .uwl-widget-info-wrap {display: none;}
+	.uw_widget_wrap input[type="submit"] {font-size: 12px;}
+	.about-me .about-me-header .about-me-avatar {margin-top: -20px;}
+}

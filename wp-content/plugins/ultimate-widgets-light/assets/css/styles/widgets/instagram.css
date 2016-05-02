@@ -1,0 +1,125 @@
+/*--------------------------------------------------------------
+Instagram
+--------------------------------------------------------------*/
+.uwl_instagram_widget .uwl-instagram-pics {
+    display: inline-block;
+    width: 100%;
+}
+
+.uwl-instagram-pics li {
+    display: block;
+    float: left;
+    height: 100%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.uwl-instagram-pics.margin li {
+    margin: 0.5%;
+}
+
+.uwl-instagram-pics li img {
+    display: block;
+    width: 100%;
+}
+
+.uwl-instagram-pics li:hover {
+    opacity: 0.8;
+}
+
+/*style 1*/
+.uwl-instagram-pics.style-one.margin li:first-child {
+    width: 99%;
+}
+
+.uwl-instagram-pics.style-one.margin li {
+    width: 32.3333333333%;
+}
+
+.uwl-instagram-pics.style-one.no-margin li:first-child {
+    width: 100%;
+}
+
+.uwl-instagram-pics.style-one.no-margin li {
+    width: 33.3333333333%;
+}
+
+/*style 2*/
+.uwl-instagram-pics.style-two.margin li:nth-child(1),
+.uwl-instagram-pics.style-two.margin li:nth-child(2) {
+    width: 49%;
+}
+
+.uwl-instagram-pics.style-two.margin li {
+    width: 24%;
+}
+
+.uwl-instagram-pics.style-two.no-margin li:nth-child(1),
+.uwl-instagram-pics.style-two.no-margin li:nth-child(2) {
+    width: 50%;
+}
+
+.uwl-instagram-pics.style-two.no-margin li {
+    width: 25%;
+}
+
+/*style 3*/
+.uwl-instagram-pics.style-three.margin li:nth-child(4n+1),
+.uwl-instagram-pics.style-three.no-margin li:nth-child(4n+1) {
+    width: 100%;
+}
+
+.uwl-instagram-pics.style-three.margin li {
+    width: 32.3333333333%;
+}
+
+.uwl-instagram-pics.style-three.no-margin li {
+    width: 33.3333333333%;
+}
+
+/*two columns*/
+.uwl-instagram-pics.two-columns.margin li {
+    width: 49%;
+}
+
+.uwl-instagram-pics.two-columns.no-margin li {
+    width: 50%;
+}
+
+/*three columns*/
+.uwl-instagram-pics.three-columns.margin li {
+    width: 32.3333333333%;
+}
+
+.uwl-instagram-pics.three-columns.no-margin li {
+    width: 33.3333333333%;
+}
+
+/*four columns*/
+.uwl-instagram-pics.four-columns.margin li {
+    width: 24%;
+}
+
+.uwl-instagram-pics.four-columns.no-margin li {
+    width: 25%;
+}
+
+/*link*/
+.uwl_instagram_widget .uwl-instagram-link {
+    display: block;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.uwl_instagram_widget .uwl-instagram-link a {
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid;
+    padding: 4px 10px;
+    letter-spacing: 0.5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}

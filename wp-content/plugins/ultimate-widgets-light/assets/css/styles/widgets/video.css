@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------
+Video
+--------------------------------------------------------------*/
+.uwl_video_widget .videocaption {
+	display: block;
+	text-align: center;
+}
+
+.uwl_video_widget .videocaption.before {
+	margin: 0 0 20px;
+}
+
+.uwl_video_widget .videocaption.after {
+	margin: 20px 0 0;
+}
